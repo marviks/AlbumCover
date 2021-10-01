@@ -114,7 +114,6 @@ if ($PSVersionTable.PSEdition -ne 'Core') {
 
     # Clean or regenerate Band name here.
 
-
     $ArtFile = New-TemporaryFile
     Write-Host "Downloading cover art..."
     #$ProgressPreference = 'SilentlyContinue'    
